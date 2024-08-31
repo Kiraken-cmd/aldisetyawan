@@ -34,16 +34,3 @@ body {
 .rounded-bottom {
   border-radius: 0 0 20% 20%;
 }
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#my-svg {
-  animation: spin 2s linear infinite;
-}
