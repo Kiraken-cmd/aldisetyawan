@@ -31,6 +31,10 @@ body {
   @apply translate-x-3;
 }
 
+.rounded-bottom {
+  border-radius: 0 0 20% 20%;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
